@@ -1,0 +1,285 @@
+.navbar{
+    margin-left: 900px;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 14px 25px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+.number1 .navbar a{
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.number1{
+    background-image: url(./images/hero-bg.png);
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding-bottom: 700px;
+    
+}
+.number1 .right img{
+    width: 500px;
+    margin-left: 930px;
+    margin-top: 100px;
+    animation: move 5s infinite;
+
+}
+@keyframes move {
+    0% {
+        -webkit-transform: translateY(-45px);
+            transform: translateY(-45px);
+       /* transform: translateY(0);  تبدأ في مكانها */
+    }
+    50% {
+        -webkit-transform: translateY(45px);
+            transform: translateY(45px);
+       /* transform: translateY(-20px); /* ترتفع فوق قليلاً */
+    }
+    100% {
+        -webkit-transform: translateY(-45px);
+            transform: translateY(-45px);
+
+        /*transform: translateY(10px); /* تنزل تحت قليلاً */
+    }
+}
+.left{
+    color: white;
+    margin-bottom: 30px;
+    position:absolute;
+    top: 0px;
+    left: 10px;
+    margin-top: 180px;
+    font-size: 27px;
+}
+.number1 .left button{
+    width: 100px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 9px;
+    background-color: rgb(34, 34, 131);
+    color: white;
+    font-size:13px;
+}
+.number2 h1{
+    text-align: center;
+    font-size: 50px;
+}
+.number2 span{
+    color: blue;
+}
+.number2 p{
+    text-align: center;
+    
+}
+.number3{
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 20px;
+        background-color: #f9f9f9; /* أو اللون الذي يناسبك */
+}
+.img1{
+    text-align: center;
+    max-width: 300px;
+    margin: 10px;
+}
+.img1 img{
+    width: 50px; /* الحجم المناسب للأيقونات */
+    height: auto;
+}
+.img1 h3{
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.img1 p{
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #666;
+}
+.img1 a{
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+.view-all-container{
+    display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745; /* اللون الأساسي الأخضر */
+  color: #fff; /* لون النص */
+  font-size: 1em;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px; /* لجعل الحواف مستديرة */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.img1 a:hover {
+    text-decoration:wavy;
+    transform: scale(2);
+    color: red;
+}
+.number4{
+    background-image: url(./images/hero-bg.png);
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding-bottom: 700px;
+}
+.number4 .leftt img{
+    position:absolute;
+    top: 0px;
+    left: 20px;
+    margin-top: 1450px;
+    width: 500px;
+    /* margin-left: 930px;
+    margin-top: 100px; */
+     animation: move 5s infinite; 
+}
+.number4 .rightt {
+    color: white;
+    text-align: right;
+    
+
+
+}
+
+.number4 .rightt h1{
+    color: white;
+    text-align: center;
+}
+.number4 .rightt p{
+    margin-bottom: 20px;
+    
+}
+.number5 .center1 img{
+    width: 50px; /* الحجم المناسب للأيقونات */
+    height: auto;
+    
+}
+.number5 {
+    text-align: center;
+}
+
+.number5 .center2 img{
+    width: 50px; /* الحجم المناسب للأيقونات */
+    height: auto;
+    
+}
+.number5 .center3 img{
+    width: 50px; /* الحجم المناسب للأيقونات */
+    height: auto;
+    
+}
+.number5 button{
+    background-color: #1074c0;
+    color: white;
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.number6{
+    background-image: url(./images/hero-bg.png);
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding-bottom: 700px; /*انزل تحت شويه ياخي */
+    text-align: center;
+
+
+}
+.number6 h1{
+    color: #f9f9f9;
+    text-align: center;
+    font-size: 50px;
+}
+
+.number6 .team{
+    display: inline-block;
+    background-color: #072c45;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center; 
+}
+.number6 .team img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border: 3px solid #fff;
+    
+
+}
+.number6 .social-links a{
+    text-decoration: none;
+    color: #ddd;
+    margin: 0 5px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+.social-links a:hover {
+    color: #1da1f2; /* Blue hover effect */
+}
+
+.number6 .team h3{
+    color: white;
+}
+.number6 .team p{
+    color: white;
+}
+.foter{
+
+    background-image: url(./images/hero-bg.png);
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding-bottom: 200px; /*انزل تحت شويه ياخي */
+    text-align: center;
+
+}
+.foter .dataleft{
+    text-align: center;
+    color: white;
+    margin-right: 900px;
+    display: inline-block;
+}
+.foter .dataleft a{
+    color: white;
+}
+
+
+.foter .datacenter{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    
+
+}
+
+.foter .datacenter a{
+    color: white;
+    text-align: center;
+    width: 20px;
+    flex: content;
+    
+
+}
